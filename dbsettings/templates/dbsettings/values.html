@@ -2,7 +2,7 @@
 {% for class in classes %}
     {% if class.grouper %}
         <tr>
-            <th colspan="2">{% filter capfirst %}{{ class.grouper }}{% endfilter %}</th>
+            <th colspan="2" style="padding-left: 40px;">{% filter capfirst %}{{ class.grouper }}{% endfilter %}</th>
         </tr>
     {% endif %}
     {% for field in class.list %}
