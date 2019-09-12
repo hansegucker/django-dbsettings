@@ -1,0 +1,77 @@
+# Copyright (C) 2012 Samuel Cormier-Iijima
+# This file is distributed under the same license as the django-dbsettings package.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: django-dbsettings 0.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-12 12:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Jonathan Weth <projects@jonathanweth.de>\n"
+"Language: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2)\n"
+
+#: templates/dbsettings/app_settings.html:10
+#: templates/dbsettings/site_settings.html:10
+msgid "Home"
+msgstr "Startseite"
+
+#: templates/dbsettings/app_settings.html:11
+#: templates/dbsettings/site_settings.html:11
+msgid "Edit Settings"
+msgstr "Einstellungen ändern"
+
+#: templates/dbsettings/app_settings.html:19
+#: templates/dbsettings/site_settings.html:19
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] "Bitte korrigieren Sie den Fehler unten."
+msgstr[1] "Bitte korrigieren Sie die Fehler unten."
+
+#: templates/dbsettings/app_settings.html:27
+#, python-format
+msgid "Settings included in the %(name)s class."
+msgstr ""
+
+#: templates/dbsettings/app_settings.html:28
+msgid "Application settings"
+msgstr "Anwendungseinstellungen"
+
+#: templates/dbsettings/app_settings.html:36
+#: templates/dbsettings/site_settings.html:45
+msgid "You don't have permission to edit values."
+msgstr "Sie haben nicht die Berechtigung, die Einstellungen zu ändern."
+
+#: templates/dbsettings/site_settings.html:27
+#, python-format
+msgid "Models available in the %(name)s application."
+msgstr "Models, die in der Anwendung %(name)s verfügbar sind."
+
+#: templates/dbsettings/site_settings.html:42
+msgid "Save"
+msgstr "Speichern"
+
+#: values.py:229
+msgid ""
+"Leave empty in order to retain old password. Provide new value to change."
+msgstr ""
+"Leer lassen, um das alte Passwort zu behalten. Zum Ändern ein neues eingeben."
+
+#: views.py:19
+msgid "Site settings"
+msgstr "Seiteneinstellungen"
+
+#: views.py:22
+#, python-format
+msgid "%(app)s settings"
+msgstr "Einstellungen für %(app)s"
+
+#: views.py:51
+#, python-format
+msgid "Updated %(desc)s on %(location)s"
+msgstr "Einstellung %(desc)s aus %(location)s erfolgreich geändert"
